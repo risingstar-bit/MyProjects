@@ -28,7 +28,7 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
 
         WebView webView=root.findViewById(R.id.bbcWebView);
-        webView.loadUrl("https://digitalsevacsp.com/CSP/index.php");
+        webView.loadUrl("https://www.bbc.com/news");
         webView.setWebViewClient(new WebViewController());
         return root;
     }
