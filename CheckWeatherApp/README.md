@@ -1,5 +1,5 @@
 ## Check Weather APP
-This is a weather analysing app.
+This is a weather analysing APP.<br>
 Here the user will have to enter the city/state/country/district's name or any place's name.<br>
 The app will then show the actual/current weather of the place
 it goes like the user will get the whole thing about that place's climate only by clicking on the "check" button provided
