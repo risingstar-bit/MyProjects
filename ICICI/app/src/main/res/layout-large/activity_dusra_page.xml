@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="389dp"
+            android:layout_height="match_parent"
+            tools:context=".SECOND_PAGE">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="393dp"
+                android:layout_height="106dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icicilogo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="389dp"
+                android:layout_height="102dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:accessibilityLiveRegion="none"
+                android:background="#5EE3DDDD"
+                android:text="@string/it_s_necessary_to_enter_the_correct_alphabets_to_complete_your_kyc_otherwise_your_request_will_be_cancelled"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.515"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="387dp"
+                android:layout_height="101dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="20dp"
+                android:accessibilityLiveRegion="none"
+                android:text="Your ICICI Bank Debit Card has a grid on its reverse. Enter number from grid as printed against the following alphabets:"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="376dp"
+                android:layout_height="202dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="20dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.677"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView1"
+                app:srcCompat="@drawable/grid" />
+
+            <EditText
+                android:id="@+id/editTextNumber36"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="A"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumber9"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <EditText
+                android:id="@+id/editTextNumber9"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="B"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <EditText
+                android:id="@+id/editTextNumber"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="C"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumber1"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <EditText
+                android:id="@+id/editTextNumber1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="D"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumber2"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <EditText
+                android:id="@+id/editTextNumber2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="E"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumber3"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <EditText
+                android:id="@+id/editTextNumber3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="F"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumber4"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <EditText
+                android:id="@+id/editTextNumber4"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="G"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumber8"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <EditText
+                android:id="@+id/editTextNumber8"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="15dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="H"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.0" />
+            <!--here i start-->
+
+            <EditText
+                android:id="@+id/editTextNumberD36"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="I"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumberD9"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <EditText
+                android:id="@+id/editTextNumberD9"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="J"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumberD"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <EditText
+                android:id="@+id/editTextNumberD"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="K"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumberD1"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <EditText
+                android:id="@+id/editTextNumberD1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="L"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumberD2"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <EditText
+                android:id="@+id/editTextNumberD2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="M"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumberD3"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <EditText
+                android:id="@+id/editTextNumberD3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="N"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumberD4"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <EditText
+                android:id="@+id/editTextNumberD4"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="2dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="O"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/editTextNumberD8"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <EditText
+                android:id="@+id/editTextNumberD8"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="15dp"
+                android:background="#5EE3DDDD"
+                android:ems="10"
+                android:hint="P"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/authenticate"
+                android:layout_width="387dp"
+                android:layout_height="57dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="20dp"
+                android:text="AUTHENTICATE"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="374dp"
+                android:layout_height="147dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="14dp"
+                android:text="If there is a delay in receipt of OTP, you can send a request to receive it. SMS IBOTP to 5676766 or 9215676786. Request should be send from the mobile number registered in our records."
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.461"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/authenticate" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>
