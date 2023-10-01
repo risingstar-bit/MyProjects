@@ -11,6 +11,5 @@ knowledge, improve cognitive abilities.
 - Used CountDownTimer() for Timer Functionality,
 Random functions to get number numbers , ArrayList
 data structure to store values.<br>
-
-https://github.com/risingstar-bit/MyProjects/assets/85429920/33e0000b-eba1-482f-9b13-8f2a26c07300
+https://github.com/risingstar-bit/MyProjects/assets/85429920/76355df2-7cca-4614-a5d3-f1a9d66acaa7
 
