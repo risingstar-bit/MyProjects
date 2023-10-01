@@ -10,6 +10,7 @@ where users can play quiz games to enhance their
 knowledge, improve cognitive abilities.
 - Used CountDownTimer() for Timer Functionality,
 Random functions to get number numbers , ArrayList
-data structure to store values.
+data structure to store values.<br>
+
 https://github.com/risingstar-bit/MyProjects/assets/85429920/0efcd40c-a7e5-4646-a074-0322b088b222
 
