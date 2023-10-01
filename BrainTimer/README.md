@@ -12,5 +12,5 @@ knowledge, improve cognitive abilities.
 Random functions to get number numbers , ArrayList
 data structure to store values.<br>
 
-https://github.com/risingstar-bit/MyProjects/assets/85429920/0efcd40c-a7e5-4646-a074-0322b088b222
+https://github.com/risingstar-bit/MyProjects/assets/85429920/33e0000b-eba1-482f-9b13-8f2a26c07300
 
