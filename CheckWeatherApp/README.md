@@ -11,4 +11,4 @@ their activities accordingly.
 temperature, humidity, wind speed, and weather
 condition descriptions and Pressure.<br>
 
-![](https://github.com/MyProjects/weather.gif)
+![weather](https://github.com/risingstar-bit/MyProjects/assets/85429920/edfb949a-d862-44ae-b420-485a8b194fed)
