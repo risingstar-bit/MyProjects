@@ -9,4 +9,6 @@ way to stay informed about the weather and plan
 their activities accordingly.
 - It displays real-time weather data, including
 temperature, humidity, wind speed, and weather
-condition descriptions and Pressure.
+condition descriptions and Pressure.<br>
+
+![](https://github.com/MyProjects/weather.gif)
