@@ -5,5 +5,5 @@ people counting system.
 
 ### Here is the demo of my project.Please go through the PDF (countPerson) where i described the topic and its implementations in details.<br>
 
- https://github.com/risingstar-bit/MyProjects/assets/85429920/b5cf2fba-b928-4d15-bcd0-11bdd675eb43
+https://github.com/risingstar-bit/MyProjects/assets/85429920/94f8900d-0dfb-4222-bd8c-adcd89f64a32
 
